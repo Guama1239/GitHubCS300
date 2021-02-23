@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" >
+
+<head>
+
+    <title>CS 308 Home &gt; Porps &gt; Computer Science Department &gt; Northeastern Illinois University </title>
+    <link rel="shortcut icon" href="http://cs.neiu.edu/~porps/favicon.ico" type="image/x-icon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="author" content="NEIU Faculty FAP" />
+    <meta name="description" content="NEIU Computer Science Faculty FAP web site" />
+    <meta name="keywords" content="NEIU Computer Science" />
+    <meta name="robots" content="index,follow" />
+    <meta name="revisit-after" content="31 days" />
+    <link href="fap_main.css" rel="stylesheet" type="text/css" />
+
+    <script>
+
+        <!--
+        function weeklyreminder()
+        {
+
+            alert( 'Week 7:  What process in the Dishwasher video example from Week 6 needs priority in this real-time system?\nAnd what process does it preempt in the example? \nFor +1 pt. extra credit.\nEmail the answer to me with the following subject line: CS 308-1 > Web Question Week 7\nDue by Sunday, February 21, 2021, 11:59 p.m.');
+
+
+            /*Move past alerts here:
+            alert( 'Week 6:  Having zeal for your O/S class, means you have watched and/or read all information at all the links posted through Week 6 and taken notes on the information, prior to the start of class in week 6.');
+            alert( 'Week 6:  List and describe your \"Top 3\" favorite videos that you have watched from the additional resources table, for +1 pt. extra credit.\nEmail the answer to me with the following subject line: CS 308-1 > Web Question Week 6\nDue by Sunday, February 14, 2021, 11:59 p.m.\nn.b.The movie HER +2 pts. extra credit is due before class on Monday, February 15, 2021.');
+
+            alert( 'Week 5:  From the Operating System Process Control Blocks video posted in Week 4,  for which process status is the process status word used? \nAlso, list the contents of the process status word IN DETAIL for +1 pt. extra credit.\nEmail the answer to me with the following subject line: CS 308-1 > Web Question Week 5\nDue by Sunday, February 7, 2021, 11:59 p.m.');
+
+            alert( 'Week 4:  From the Linux booting process video posted in Week 3, List the 6 steps to the booting process, with a brief description of each step for +1 pt. extra credit.\nEmail the answer to me with the following subject line: CS 308-1 > Web Question Week 4\nDue by Sunday, January 31, 2021, 11:59 p.m.');
+
+
+            alert( 'Week 3: From the Kernel basics video posted in Week 2, differentiate choosing: M or * when adding features to the Linux Kernel. for +1 pt. extra credit.\nEmail the answer to me with the following subject line: CS 308-1 > Web Question Week 3\nDue by Sunday, January 24, 2021, 11:59 p.m.\n\nNote: Both extra credit assignments announced in class during Week 2: Cloud Computing and O/S Protection and Security are due any time between now and the deadline to withdraw for this semester.  \n\n\nSee 2nd choice link in Week 2 for Linux intro if 1st link is not working.');
+
+
+
+            alert( 'Week 2: What is the SPECIFIC main challenge for operating system running in a real-time environment?\n(hint: embedded system for those of you skimming the textbook ;-)\n for +1 pt. extra credit.\nEmail the answer to me with the following subject line: CS 308-1 > Web Question Week 2\nDue by Sunday, January 17, 2021, 11:59 p.m.\nn.b.There are many video resources located in the navigation bar on the left - please explore them to help you to understand the concepts presented in this course. There may be quiz and exam questions drawn from the Additional Resources Table as well.');
+
+            alert( 'Week 1: Welcome to CS 308-1 Spring 2021!\n\n\nPreparing for the first class is as easy as 1,2,3!\n\n1. Review the syllabus for the textbook and supply requirements and bring them to the first class.\n\n2. View the Weekly Schedule and mark your calendar with due dates for reading assignments which are to be completed before class.\n\n3.Print a copy of the syllabus for Week 1 and bring it to class, as there will be a bonus quiz based on information in the syllabus.\n\nYou will also want to print the study guide for Week 1, read sections 1.1 - 1.4 and find details about the concepts listed in the study guide prior to class to be prepared for the pre-quiz \n(see syllabus for details).\n\nFinally, read and complete the remote learning Student Desk Card, located in the Announcements in the the course D2L shell, then post your answers to the  discussion thread in the course D2L shell.');
+
+
+            */
+        }
+        -->
+
+    </script>
+</head>
+
+<body onload="weeklyreminder()">
+
+<div id="header">
+
+    <p>
+        <img src="../images/Neiudkbackground.gif" alt="NEIU logo" title="NEIU" style="border-style: none; margin-left: 10px; float:left;padding-top: 20px;width:127px;height:50px; " /></p>
+
+    <img src="../images/daisy.jpg"  alt="daisy" title="Nature's representation of a bounded queue." style="float:right; margin-left:20px;width:200px;height:244px" />
+    <p class="fapheading02">CS 308 Operating Systems<br/>
+        <span class="fapheading03">&nbsp;<br/>Spring 2021</span><br/>
+        <span class="fapheading04">Monday(M) and Wednesday(W)<br/>2:20 p.m. - 3:35 p.m.<br/>Location: Remote<br/>(crn: 24789)</span>
+    </p>
+</div>
+
+<div id="primarynav" class="mainnav">
+
+    <p><a href="../index.html" >Home</a></p>
+    <hr/>
+    <p>IMPORTANT!</p>
+    <p><a href="CS308-1MainPage.html" style="background:#0A5397;background-image: url(images/foldernavh.png);color:white;">CS 308<br/>home page</a></p>
+
+    <p><a href="cs308/CS308-00SyllabusSpring2021.pdf" target="_blank">Syllabus</a></p>
+    <p><a href="cs308/RemoteLearningStudentDeskCard.docx" target="_blank">Remote Learning Student Desk Card</a></p>
+
+    <p><a href="#WeeklySchedule">Weekly<br />Schedule &amp; Assignments</a></p>
+
+    <hr/>
+    <p>Additional Resources:</p>
+    <p><img src="cs308/bioschip.jpg" alt="bios chip" title="bios chip" style="width:80%;height:80%;" /></p>
+
+    <p><a href="https://www.youtube.com/watch?v=V67YRlsBEoY" target="_blank">BIOS chip replacement tutorial</a></p>
+
+    <p><img src="cs308/cpu.jpg" alt="CPU" title="CPU" style="width:100%;height:100%;" /></p>
+
+    <p><a href="https://www.youtube.com/watch?v=cNN_tTXABUA" target="_blank">How does the CPU work?</a></p>
+
+    <p><a href="https://www.youtube.com/watch?v=rNl9ol_rPMs" target="_blank">How does the O/S act as a liason between hardware and software?</a></p>
+
+    <p><a href="https://www.youtube.com/watch?v=o8NPllzkFhE" target="_blank">TED Talk:<br/>The mind behind Linux -<br />Linus Torvalds</a></p>
+
+    <p><img src="cs308/mainmemory.png" alt="main memory" title="main memory" style="width:100%;height:100%;" /></p>
+
+    <p><img src="cs308/harddrive.jpg" alt="hard drive AKA backing store" title="hard drive AKA backing store" style="width:100%;height:100%;" /></p>
+
+    <p><img src="cs308/USB.png" alt="USB drive" title="USB DRIVE" style="width:100%;height:100%;" /></p>
+
+    <p><a href="http://www.youtube.com/watch?v=epWd5ZFCNhI&amp;feature=related" target="_blank">What is inside the USB drive?</a></p>
+
+    <p><a href="cs308/CS308xProcessControlBlock.ppsx" target="_blank">PCB</a></p>
+    <hr />
+    <p>Student Work:<br/>
+        Fact Sheets</p>
+    <p><a href="cs308/MassStorageStructuresFactSheet.pdf" target="_blank">Mass Storage Structure</a></p>
+    <p><a href="cs308/IOSystemsFactSheet.pdf" target="_blank">I/O Systems</a></p>
+    <p><a href="cs308/ProtectionFactSheet.pdf" target="_blank">Protection</a></p>
+    <p><a href="cs308/SecurityFactSheet.pdf" target="_blank">Security</a></p>
+    <p><a href="cs308/VirtualMachinesFactSheet.pdf" target="_blank">Virtual Machines</a></p>
+    <p>Student Work:<br/>
+        Concept Introductions<br/>
+        and Videos</p>
+
+    <p><a href="cs308/OSResources.html" target="_blank">Additional Resources Table</a></p>
+
+    <!--<hr/>
+    <p>Tutorials:</p>
+    <p><a href="https://www.youtube.com/watch?v=Hlxqk0iHp5w" target="_blank">How To: Upload a YouTube Video</a></p>
+    <p><a href="https://www.youtube.com/watch?v=8TQw_mao-AE" target="_blank">How To: Create a Supported file format for YouTube</a></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>-->
+</div>
+
+<div id="content">
+
+    <!-- DO NOT EDIT CODE ABOVE THIS LINE***************************************************-->
+
+    <p class="lead"><img src="../images/arrow2.png"  alt="arrow" title="Choose your category from the navigation bar on left." style="border-style: none; margin-right: 5px; float:left;width:105px;height:75px;" />The Left Navigation Bar:<br/>Links to class syllabus, assignments, projects, examples,<br/>
+        web tools, downloads, &amp; more (possibly useful) information.<br/>
+        <span style="color:red;">Note: Links are specific to course.</span></p>
+    <hr/><h4>Welcome to CS 308, Operating Systems!</h4>
+
+    <p class="lead">A general overview of the ideas underlying operating systems.</p>
+
+    <p>Included are traditional topics such as file systems, CPU scheduling, memory management and device scheduling, along with the topics of more current interest such as deadlock handling, process synchronization and distributed systems. No single operating system is studied; examples are drawn from many sources.</p>
+    <p>Prerequisites: CS-207 minimum grade of C and CS-301 minimum grade of C.</p>
+    <p>&nbsp;</p>
+    <p style="color:red;font-size:140%;font-weight:bold;text-align:center;">Web site content is subject to change, consider checking this page at least twice weekly.</p>
+    <hr/>
+    <p>&nbsp;</p>
+    <p><b>Along with your textbook,<br/>
+        additional supply requirements to bring to every class</b>: spiral notebook or loose leaf paper, favorite writing utensil, and a <span style="color:red;font-weight:bold;"><b>red</b></span> pen. </p>
+    <p>&nbsp;</p>
+    <hr/>
+    <p>&nbsp;</p>
+    <p><b>You are responsible for the reading that is assigned in the syllabus and listed below in the Weekly Schedule.</b></p>
+    <p><img src="../images/longblocks.png"  alt="blocks" style="border-style:none;padding-top:20px;padding-bottom:5px;width:740px;height:26px;" />
+    </p>
+    <h4><a id="WeeklySchedule"></a>Weekly Schedule: <span style="font-size:90%;">reading assignments,</span><span style="font-size:70%;">written assignments,</span><span style="font-size:50%;">virtual assignments...</span></h4>
+
+    <p style="text-align:right;color:#003366;"><i>The sign of a prepared student, textbooks in hand, along with materials for note-taking, ready at the first class.</i><br />
+        (the textbook for this class is listed in the syllabus)</p>
+
+
+    <p>&nbsp;</p>
+    <p><i>Note:  In order to stay on task with all work/projects/assignments, a virtual class will be held in lieu of a traditional class due to any campus closings/instructor absences. Virtual activities will be posted within 24 hours of a declared campus closing or instructor absence notification. An e-mail  notification of the virtual class will be sent to registered students NEIU e-mail account (if possible - meaning NEIUport is available), and virtual activities will be linked in the Weekly Schedule for the date of the cancelled class.  All listed assignments still apply.</i></p>
+    <p>&nbsp;</p>
+    <hr/>
+
+    <!-- Weekly Schedule starts here: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^-->
+
+    <!--  1************************************************************************************************************* -->
+
+    <p style="color: rgb(51, 153, 204);"><b>Week # 1 - (1.11.21 and 1.13.21)</b></p>
+    <p>Bring textbook and a printed copy of the syllabus to class, along with all other supply requirements for the course.</p>
+    <p>Read Part I: Overview - Introduction (Chapter 1)</p>
+    <p class="context">Take notes from reading: <a href="cs308/CS308-01StudyGuide01.docx">Study Guide 1.1 - 1.4</a></p>
+    <p class="context">Watch: <a href="https://www.youtube.com/watch?v=5AjReRMoG3Y" target="_blank">Operating Systems - Introduction</a></p>
+    <p class="context">Watch: <a href="https://www.youtube.com/watch?v=aurDHyL7bTA" target="_blank">Linux: A Short Documentary</a></p>
+    <p class="context">Read: <a href="https://stallman.org/biographies.html" target="_blank">Who is Richard Stallman?</a> and <a href="https://en.wikipedia.org/wiki/Richard_Stallman" target="_blank">read more about him...</a></p>
+    <p class="context">Read: <a href="https://www.gnu.org/software/hurd/hurd-and-linux.html" target="_blank">Hurd: Why bother?</a></p>
+    <p style="color:#E6B81F; background-color:#0A5397;padding:5px;font-size:16px;width:33%;">Quizzes:<br/>Syllabus Content<br/>Pre-quiz: 1.1-1.4<br/><span style="font-size:10px;">(special due date Wednesday by noon)<br/>(see syllabus for due date details)</span></p>
+    <p style="color:red;font-weight:bold;">YOU MUST BRING YOUR NEIU PHOTO I.D. TO CLASS.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <hr/>
+    <!--  2************************************************************************************************************* -->
+    <p style="color: rgb(51, 153, 204);"><b>Week # 2 - (1.18.21 and 1.20.21)</b></p>
+    <p>Read Part I: Overview - Introduction (Chapter 1)</p>
+    <p class="context">Take notes from reading: <a href="cs308/CS308-02StudyGuide01Continued.docx">Study Guide 1.5 - 1.12</a></p>
+
+    <p class="context">Read: <a href="https://www.linux.org/threads/what-is-linux.4106/" target="_blank">What is Linux - an introduction</a> or  <a href="http://www.livinginternet.com/i/iw_unix_gnulinux.htm" target="_blank">Linux History (2nd choice link) </a></p>
+
+    <p class="context">Watch: <a href="https://www.youtube.com/watch?v=rTcnTOXf_jM" target="_blank">Kernel Basics (a Linux Example)</a></p>
+
+
+    <p style="color:#E6B81F; background-color:#0A5397;padding:5px;font-size:16px;width:33%">Post-quiz: 1.1-1.4<br/>Pre-quiz: 1.5-1.12</p>
+    <p style="color:red;font-weight:bold;">No class: 1.18.21 - Martin Luther King Jr. Birthday Holiday!</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <hr/>
+    <!--   3************************************************************************************************************* -->
+
+    <p style="color: rgb(51, 153, 204);"><b>Week # 3 - (1.25.21 and 1.27.21)</b></p>
+    <p>Read Part I: Overview - Operating System Structures (Chapter 2)</p>
+
+    <p class="context">Take notes from reading: <a href="cs308/CS308-03StudyGuide02.docx">Study Guide 2.1 - 2.10</a></p>
+    <p class="context">Read: <a href="http://www.dougengelbart.org/firsts/mouse.html" target="_blank">X-Y position indicator</a></p>
+
+    <p class="context">Watch: <a href="https://www.youtube.com/watch?v=hRYnloqYKGY&amp;list=PL76DBC8D6718B8FD3&amp;index=4" target="_blank">The Mouse! (but check out the 5 key - 31 combo device(discrete math in action);-)</a></p>
+    <!-- NEW FOR SUMMER 2016 -->
+    <p class="context">Read: <a href="http://www.dougengelbart.org/firsts/keyset.html" target="_blank">The 5 key set</a></p>
+
+
+    <p class="context">Watch: <a href="https://www.youtube.com/watch?v=ZtVpz5VWjAs" target="_blank">Linux Booting Process</a></p>
+
+    <p class="context">Read: <a href="http://www.tldp.org/LDP/intro-linux/html/sect_04_02.html" target="_blank">Linux Booting Process</a></p>
+
+    <p class="context">Watch: <a href="https://www.youtube.com/watch?v=FkIWDAtVIUM" target="_blank">How a System Call works (Linux using Intel processor)</a></p>
+
+    <p class="context">Watch: <a href="https://youtu.be/26QPDBe-NB8" target="_blank">A bit of history: how the O/S has evolved</a></p>
+
+    <p style="color:#E6B81F; background-color:#0A5397;padding:5px;font-size:16px;width:33%">Post-quiz: 1.5-1.12<br/>Pre-quiz: 2.1-2.10</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <hr/>
+    <!-- 4 ************************************************************************************************************* -->
+    <p style="color: rgb(51, 153, 204);"><b>Week # 4 - (2.1.21 and 2.3.21)</b></p>
+    <p>Read Part II: Process Management - Processes (Chapter 3)</p>
+    <p class="context">Take notes from reading: <a href="cs308/CS308-04StudyGuide03.docx">Study Guide 3.1 - 3.7</a></p>
+    <p class="context">Watch: <a href="https://www.youtube.com/watch?v=IVNkxluctuk&amp;index=5&amp;list=PLEYfCZIG4wG_1gdCacMBivEKJheJbYjms" target="_blank">Operating System Process Control Blocks</a></p>
+    <p class="context">Watch: <a href="cs308/CS308-04Communications.ppsx" target="_blank">Communications: Sockets, RPC, Pipes</a></p>
+    <p class="context">Watch: <a href="https://www.youtube.com/watch?v=sP50GHDmfhY" target="_blank">Using a named pipe (FIFO) on Linux in C</a></p>
+    <p style="color:#E6B81F; background-color:#0A5397;padding:5px;font-size:16px;width:33%">Post-quiz: 2.1-2.10<br/>Pre-quiz: 3.1-3.7</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    <p class="context">Assignment: <a href="cs308/CS308-08AssignmentCh4.pdf" target="_blank">Chapter 4 &gt; Threads</a></p>
+    <p><i>n.b. This assignment is due at the start of class in Week 6. See syllabus for format to submit your work.</i></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <hr/>
+    <!-- 5 ************************************************************************************************************* -->
+    <p style="color: rgb(51, 153, 204);"><b>Week # 5 - (2.8.21 and 2.10.21)</b></p>
+    <p style="color:#E6B81F; background-color:#0A5397;padding:5px;font-size:16px;width:33%;border:solid;border-color:red;">Review Conversation: Overview<br/>(Chapters: 1-2)</p>
+    <p>See syllabus for details (25 points)</p>
+    <p>Project approval due this week.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <!--<p class="context">Read, print, and complete: <a href="cs308/CS308-14YouTubeProjectFormAndSpecs.pdf">Week 14 Team Presentation Project Specifications</a> (due at the start of class in Week 7)</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p> -->
+    <hr/>
+    <!-- 6 ************************************************************************************************************* -->
+    <p style="color: rgb(51, 153, 204);"><b>Week # 6 - (2.15.21 and 2.17.21)</b></p>
+    <p>Read Part II: Process Management - CPU Scheduling(Chapter 5)</p>
+    <p class="context">Take notes from reading: <a href="cs308/CS308-06StudyGuide05.docx">Study Guide Chapter 5</a></p>
+    <p class="context">Watch: <a href="https://www.youtube.com/watch?v=rYeqygKAZoM" target="_blank">Concepts of Real Time Systems (dishwasher embedded system example)</a></p>
+    <p class="context">Read: <a href="https://www.sciencenews.org/article/five-challenges-self-driving-cars" target="_blank">Self-driving Cars</a></p>
+    <p class="context">Read: Scheduling priorities</p>
+    <ul class="context"><li><a href="https://medium.com/@chetaniam/a-brief-guide-to-priority-and-nice-values-in-the-linux-ecosystem-fb39e49815e0#:~:text=In%20Linux%20system%20priorities%20are,default%20and%20%2B19%20is%20lowest" target="_blank">Linux</a></li>
+        <li><a href="https://www.cnet.com/news/understanding-process-priority-in-os-x/" target="_blank">OS X</a></li>
+        <li><a href="https://docs.microsoft.com/en-us/windows/win32/procthread/scheduling-priorities" target="_blank">Windows</a></li>
+    </ul>
+
+    <p style="color:#E6B81F; background-color:#0A5397;padding:5px;font-size:16px;width:33%">Post-quiz: 3.1-3.7<br/>Pre-quiz: 5</p>
+    <p class="context">Assignment: <a href="cs308/CS308-08AssignmentCh4.pdf" target="_blank">Chapter 4 &gt; Threads (Due at the start of class Week 6.)</a></p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <hr/>
+    <!-- 7 ************************************************************************************************************* -->
+    <p style="color: rgb(51, 153, 204);"><b>Week # 7 - (2.22.21 and 2.24.21)</b></p>
+    <p>Read Part IV: Memory Management - Main Memory (Chapter 9)</p>
+    <p class="context">Take notes from reading: <a href="cs308/CS308-07StudyGuideCh09.docx">Study Guide Chapter 9</a></p>
+    <p class="context">Read: <a href="https://en.wikipedia.org/wiki/Word_%28computer_architecture%29" target="_blank">What is a word?</a></p>
+    <p class="context">Read: <a href="https://betterexplained.com/articles/understanding-big-and-little-endian-byte-order/" target="_blank">Are you a Little Endian or Big Endian?</a></p>
+
+    <p class="context">Read: <a href="https://en.wikipedia.org/wiki/Reentrancy_%28computing%29" target="_blank">What is reentrant code?</a></p>
+    <p class="context">Watch: <a href="https://www.youtube.com/watch?v=qdkxXygc3rE" target="_blank">Memory Manager</a></p>
+
+    <p style="color:#E6B81F; background-color:#0A5397;padding:5px;font-size:16px;width:33%">Post-quiz: 5<br/>Pre-quiz: 9</p>
+
+    <!--<p style="color:red;font-weight:bold;">No class: Tuesday, 10.09.18 - Fall Break!</p> -->
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    <hr/>
+    <!-- 8 ************************************************************************************************************* -->
+    <p style="color: rgb(51, 153, 204);"><b>Week # 8 - (3.1.21 and 3.3.21)</b></p>
+    <p>Part IV: Memory Management - Main Memory (Chapter 9) continued</p>
+    <p>Project: progress check in due this week.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <hr/>
+    <!-- 9  ************************************************************************************************************* -->
+    <p style="color: rgb(51, 153, 204);"><b>Week # 9 - (3.8.21 and 3.10.21)</b></p>
+    <p>Read Part IV: Memory Management - Virtual Memory (Chapter 10)</p>
+    <p class="context">Take notes from reading: <a href="cs308/CS308-08StudyGuideCh10.docx">Study Guide 10</a></p>
+    <p class="context">Watch: <a href="https://www.youtube.com/watch?v=dOVrEbZVeoU" target="_blank">Introduction to Virtual Memory: Demand Paging</a></p>
+    <p class="context">Watch: <a href="https://youtu.be/IMe032S9krc" target="_blank">This is not Operating System Thrashing!</a></p>
+    <p class="context">Watch (actually, just listen): <a href="https://www.youtube.com/watch?v=9jRz5wojTSA" target="_blank">Thrashing</a></p>
+    <p class="context">Read (instead of listen): <a href="https://en.wikipedia.org/wiki/Thrashing_%28computer_science%29" target="_blank">Thrashing</a></p>
+    <!-- post only when not covered in lecture -->
+    <p class="context">Watch: <a href="cs308/CS308-08VirtualMemoryCh09OtherPagingConsiderationsOnly.ppsx" target="_blank">Paging: Other Considerations</a></p>
+    <p style="color:#E6B81F; background-color:#0A5397;padding:5px;font-size:16px;width:33%">Post-quiz: 9<br/>Pre-quiz: 10</p>
+
+    <p>&nbsp;</p>
+    <p style="color:red;font-weight:bold;">No class: 3.15.21 and 3.17.21 - Spring Break!</p>
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <hr/>
+
+    <!-- 10  ************************************************************************************************************* -->
+    <p style="color: rgb(51, 153, 204);"><b>Week # 10 - (3.22.21 3.24.21)</b></p>
+    <p style="color:#E6B81F; background-color:#0A5397;padding:5px;font-size:16px;width:33%">Post-quiz: 10</p>
+    <p style="color:#E6B81F; background-color:#0A5397;padding:5px;font-size:16px;width:33%;border:solid;border-color:red;">Review Conversation: Memory Management<br/>(Chapters: 9 &amp; 10)</p>
+    <p>See syllabus for details (25 points)</p>
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <hr/>
+
+
+    <!-- 11 ************************************************************************************************************* -->
+    <p style="color: rgb(51, 153, 204);"><b>Week # 11 - (3.29.21 and 3.31.21)</b></p>
+    <p>Read Part III: Process Synchronization - Synchronization Tools and Examples (Chapters 6 and 7) </p>
+    <p class="context">Take notes from reading: <a href="cs308/CS308-09StudyGuideCh6-7.docx">Study Guide 6-7</a></p>
+    <p class="context">Watch: <a href="https://www.youtube.com/watch?v=P-8ceLiMuEA" target="_blank">Dining Philosophers: Deadlock and time-out solution</a></p>
+    <p class="context">Watch: <a href="https://www.youtube.com/watch?v=1G7HTwKvYHc" target="_blank">Dining Philosophers: Deadlock and mutex solution to avoid starvation</a></p>
+    <p style="color:#E6B81F; background-color:#0A5397;padding:5px;font-size:16px;width:33%">Pre-quiz: 6-7</p>
+    <!--<p>&nbsp;</p>
+    <p class="context" style="color:red;font-weight:bold;">If you choose to terminate participation in a class, and wish to receive a grade of withdrawn (W), the deadline to drop a course is
+    Friday <b>4.2.21</b> by midnight, via <a href="http://neiuport.neiu.edu/cp/home/loginf" target="_blank">NEIUport</a>. If you do not officially withdraw from a class, you will still receive the grade for the course.</p> -->
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <hr/>
+
+
+    <!--  12************************************************************************************************************* -->
+
+    <p style="color: rgb(51, 153, 204);"><b>Week # 12 - (4.5.21 and 4.7.21)</b></p>
+    <p>Read Part III: Process Synchronization - Deadlocks (Chapter 8)</p>
+    <p class="context">Take notes from reading: <a href="cs308/CS308-11StudyGuideCh08.docx">Study Guide 8</a></p>
+    <p class="context">Watch: <a href="cs308/CS308-11DeadlocksCh07.ppsx" target="_blank">Deadlocks</a></p>
+    <p class="context">Watch: <a href="https://www.youtube.com/watch?v=oIXj9FfSyxY" target="_blank">Banker's Algorithm Concept</a></p>
+    <p class="context">Read: <a href="https://www.studytonight.com/operating-system/deadlocks" target="_blank">Deadlocks and Livelocks </a></p>
+
+    <p class="context">Read: <a href="https://en.wikibooks.org/wiki/Operating_System_Design/Concurrency/Livelock" target="_blank">Wikibooks Livelocks </a></p>
+
+    <p class="context">Read: <a href="https://www.techopedia.com/definition/3723/livelock" target="_blank">Techopedia Livelocks </a></p>
+
+
+
+    <p style="color:#E6B81F; background-color:#0A5397;padding:5px;font-size:16px;width:33%">Post-quiz: 6-7<br/>Pre-quiz: 8</p>
+
+
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+    <hr/> <!-- -->
+    <!--  13************************************************************************************************************* -->
+    <p style="color: rgb(51, 153, 204);"><b>Week # 13 - (4.12.21 and 4.14.21)</b></p>
+    <p>Read Part VI: File System - File System Interface (Chapter 13)</p>
+    <p class="context">Take notes from reading: <a href="cs308/CS308-12StudyGuideCh13.docx">Study Guide 13</a></p>
+    <p class="context">Watch: <a href="https://www.youtube.com/watch?v=TQCr9RV7twk&feature=youtu.be" target="_blank">Memory And Storage Mediums (a history)</a></p>
+    <p style="color:#E6B81F; background-color:#0A5397;padding:5px;font-size:16px;width:33%">Post-quiz: 8<br/>Pre-quiz: 13</p>
+
+    <p><i>n.b. There is an assignment due at the start of class next week. See link in Week 14 for specifications. See syllabus for format to submit your work.</i></p>
+
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+
+    <hr/>
+
+
+    <!--  14************************************************************************************************************* -->
+    <p style="color: rgb(51, 153, 204);"><b>Week # 14 - (4.19.21 and 4.21 21)</b></p>
+    <p>Read Part VI: File System - File System Implementation (Chapter 14)</p>
+    <p class="context">Assignment: <a href="cs308/CS308-13AssignmentCh14.docx" target="_blank">14 (Due at the start of class Week 14.)</a></p>
+    <p class="context">Watch: <a href="https://www.youtube.com/watch?v=KN8YgJnShPM" target="_blank">Files &amp; File Systems</a></p>
+
+    <p style="color:#E6B81F; background-color:#0A5397;padding:5px;font-size:16px;width:33%">Post-quiz: 13</p>
+
+    <!--<p>Team Project Presentations</p>
+    <p style="color:#E6B81F;">Team Project (50 pts.)</p>
+    <p class="context">Specifications: <a href="cs308/CS308-14YouTubeProjectFormAndSpecs.pdf" target="_blank">Team Project Presentation</a></p>
+    <p class="context">Review: <a href="cs308/CS308-14YouTubeProjectGradingForm.pdf" target="_blank">Team Project Grading Rubric</a></p> -->
+    <!--<p>&nbsp;</p>
+    <p style="color:red;font-weight:bold;"><b>Reminder: No class session 11.28.19 - Thanksgiving Holiday.</b></p> -->
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <hr/>
+
+
+    <!--  15************************************************************************************************************* -->
+    <p style="color: rgb(51, 153, 204);"><b>Week # 15 - (4.26.21 and 4.28.21)</b></p>
+    <p>Content Review</p>
+    <p style="color:#E6B81F; background-color:#0A5397;padding:5px;font-size:16px;width:33%;border:solid;border-color:red;">Review Conversation: Process Management and Process Synchronization<br/>(Chapters: 3-8)</p>
+    <p>See syllabus for details (25 points)</p>
+    <p> Project due (50 pts.)</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p class="context" style="color:red;font-weight:bold;">If you choose to terminate participation in a class, and wish to receive a grade of withdrawn (W), the deadline to drop a course is
+        Saturday <b>5.8.21</b> by 11:59 p.m., via <a href="http://neiuport.neiu.edu/cp/home/loginf" target="_blank">NEIUport</a>. If you do not officially withdraw from a class, you will still receive the grade for the course.</p>
+    <p>&nbsp;</p>
+
+    <!-- DO NOT EDIT CODE BELOW THIS LINE***************************************************-->
+
+</div>
+
+<div id="bottomnav" class="bottom">
+    <a href="http://cs.neiu.edu/%7Eporps/CSFAPRSS.xml"><img src="../images/rss.jpg" alt="blog RSS feed" style="width:18px;border:0px;height:19px;" /> FAP's Blog - Really Simple Syndication (RSS)</a> ::
+    <a href="http://www.neiu.edu" target="_blank">NEIU Home</a> ::
+    <a href="http://neiuport.neiu.edu/cp/home/loginf" target="_blank">NEIUport</a>
+</div>
+
+<div id="footer">
+
+    <p class="office">
+        <img src="../images/neiulogo.gif"  alt="NEIU LOGO"  style="float:left;padding-bottom:10px;width:431px;height:71px;" />
+
+        F. Porps, M.S.- Computer Science<br/> LWH 3050 :: 773/442-4720<br/>f-porps&#64;neiu.edu</p>
+
+    <p class="addressNEIU">&copy; 2021 Northeastern Illinois University, 5500 North St. Louis Avenue, Chicago, Illinois 60625-4699, 773/583-4050</p>
+
+</div>
+
+<div>
+
+    <p id="update">web page updated: 2.18.21 &#9748;</p>
+</div>
+
+</body>
+
+</html>
